@@ -1,7 +1,9 @@
 package contas
 
+import "github.com/yanvic/projeto-2-Go/contas"
+import "github.com/yanvic/projeto-2-Go/clientes"
 type ContaConrrente struct {
-	Titular       Titular
+	Titular      clientes.Titular
 	NumeroAgencia int
 	NumeroConta   int
 	Saldo         float64

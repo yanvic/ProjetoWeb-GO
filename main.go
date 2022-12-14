@@ -4,6 +4,7 @@ import "fmt"
 import "github.com/yanvic/projeto-2-Go/contas"
 import "github.com/yanvic/projeto-2-Go/clientes"
 
+
 func main() {
 	//ContaYan := ContaConrrente{titular: "yan", numeroAgencia: 250, numeroConta: 12456, saldo: 255}
 	contaYan := contas.ContaConrrente{Titular: "yan", Saldo: 300}
