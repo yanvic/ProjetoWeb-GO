@@ -1,11 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	//ContaYan := ContaConrrente{titular: "yan", numeroAgencia: 250, numeroConta: 12456, saldo: 255}
-	contaYan := ContaConrrente{Titular: "yan", saldo: 300}
-	contaVitor := ContaConrrente{Titular: "vitor", saldo: 200}
+	contaYan := contas.ContaConrrente{Titular: "yan", Saldo: 300}
+	contaVitor := contas.ContaConrrente{Titular: "vitor", Saldo: 200}
 
 	status := contaYan.Tranferir(200, &contaVitor)
 
